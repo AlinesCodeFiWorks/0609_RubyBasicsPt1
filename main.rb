@@ -51,3 +51,25 @@ two = 2
 three = one + two
 puts three #satisfying(x2)
 
+four = 3
+four += one
+puts four #not as satifying, oddly enough
+
+first_name = "Aline"
+last_name = "Taylor"
+
+puts "Full name: #{first_name +" "+ last_name}"
+
+#math pratice prombel
+width = 10
+height = 5
+rectangle_area = width*height
+puts "The area of the rectangle is #{rectangle_area}"
+
+#ternary ops
+puts rectangle_area == 50? "it is fifty! :)":"not fifty :("
+
+puts rectangle_area == 50 && first_name = "Aline"
+
+#control flow practice prombel
+number = 52
