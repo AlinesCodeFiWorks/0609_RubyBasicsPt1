@@ -69,7 +69,22 @@ puts "The area of the rectangle is #{rectangle_area}"
 #ternary ops
 puts rectangle_area == 50? "it is fifty! :)":"not fifty :("
 
-puts rectangle_area == 50 && first_name = "Aline"
+puts rectangle_area == 50 && first_name == "Aline"
 
 #control flow practice prombel
-number = 52
+number = -1
+if number > 0
+  puts "that's a positive number"
+elsif number < 0
+  puts "that's a negative number"
+else
+  puts "that's zero" 
+end
+
+#unless statement
+height_in_ft=5
+unless height_in_ft<5
+  puts "You can ride the rollercoaster!"
+end
+
+#
